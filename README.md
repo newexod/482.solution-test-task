@@ -10,7 +10,7 @@ ERROR in Error encountered resolving symbol values statically. Function calls ar
 	<li>Комбинацией клавиш Ctrl + S просто сохранить и всё будет работать</li>
 </ul>
 
-# LightIt
+# 482.solution
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
