@@ -1,0 +1,21 @@
+<div class="col-md-12">
+	<div class="col-md-6">
+		<nav>
+			<a [routerLink]="['/']">Home</a>
+		    <a [routerLink]="['/item1']">Item 1</a>
+		    <a [routerLink]="['/item2']">Item 2</a>
+		</nav>
+	</div>
+	<div class="col-md-12">
+		<galery [datasource]=images></galery>
+	</div>
+	<div class="col-md-12 logout">
+		<ul>
+	        <li *ngFor="let user of users">
+	            {{user.username}} ({{user.firstName}} {{user.lastName}})
+	            - <a (click)="deleteUser(user.id)">Delete</a>
+	        </li>
+	    </ul>
+		<p><a [routerLink]="['/login']">Logout</a></p>
+	</div>
+</div>

@@ -1,0 +1,22 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  padding: 25px;
+  color: #06c6da;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.logout ul,
+.logout p {
+  margin-top: 20px;
+  text-align: center;
+}
